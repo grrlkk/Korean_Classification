@@ -1,0 +1,15 @@
+# 무거운 체크포인트, 로그, 모델들 무시
+results_balanced/
+best_kobert_model/
+*.pt
+*.pth
+*.bin
+*.safetensors
+*.json
+*.state
+*.ckpt
+
+# 캐시나 로그 관련 무시
+__pycache__/
+*.log
+*.tmp
