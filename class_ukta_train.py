@@ -26,8 +26,8 @@ from sklearn.metrics import accuracy_score, f1_score, precision_score, recall_sc
 
 # --- 하이퍼파라미터 ---
 MODEL_NAME = "klue/bert-base"
-TRAIN_PATH = "/home/ukta/ukta_class/train_label.csv"  # 학습 데이터 경로
-VALID_PATH = "/home/ukta/ukta_class/valid_label.csv"  # 검증 데이터 경로
+TRAIN_PATH = "./train_label.csv"  # 학습 데이터 경로
+VALID_PATH = "./valid_label.csv"  # 검증 데이터 경로
 MAX_LEN = 512
 BATCH_SIZE = 16  
 LR = 1e-5
